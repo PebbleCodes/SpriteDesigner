@@ -2,7 +2,7 @@ import { useRef, useState } from 'react';
 import { useStore } from '../store';
 import { fileToSpriteSheet } from '../renderer/spriteLoader';
 import { exportProjectJSON, exportSpriteSheet, exportGIF, exportPhaserJSON } from '../export/exporter';
-import { FolderIcon, SaveIcon, ImageIcon, MovieIcon, GamepadIcon, UndoIcon, RedoIcon } from './icons';
+import { FolderIcon, SaveIcon, ImageIcon, MovieIcon, GamepadIcon, UndoIcon, RedoIcon } from './Icons.tsx';
 import type { Layer } from '../types';
 
 export function Toolbar() {

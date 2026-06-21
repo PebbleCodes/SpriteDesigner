@@ -8,7 +8,7 @@ import {
 } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
 import { useStore } from '../store';
-import { EyeIcon, EyeOffIcon, DeleteIcon, DragIcon } from './icons';
+import { EyeIcon, EyeOffIcon, DeleteIcon, DragIcon } from './Icons.tsx';
 import type { Layer } from '../types';
 
 interface LayerItemProps {

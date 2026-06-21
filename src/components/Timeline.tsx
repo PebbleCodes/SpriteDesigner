@@ -1,6 +1,6 @@
 import { useStore, getActiveAnimation } from '../store';
 import { getAnimationLength } from '../renderer/renderer';
-import { PlayIcon, PauseIcon, StepBackIcon, StepForwardIcon, ResetIcon } from './icons';
+import { PlayIcon, PauseIcon, StepBackIcon, StepForwardIcon, ResetIcon } from './Icons.tsx';
 
 const LOOP_MODES = ['continuous', 'once', 'bounce'] as const;
 
