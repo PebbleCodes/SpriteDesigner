@@ -15,7 +15,7 @@ function defaultProject(): ProjectState {
       id: DEFAULT_ANIMATION_ID,
       name: 'Default',
       fps: 12,
-      loopMode: 'loop',
+      loopMode: 'continuous',
       layerRanges: {},
     }],
     activeAnimationId: DEFAULT_ANIMATION_ID,
